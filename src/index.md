@@ -14,14 +14,22 @@ gallery: "Gallery"
 
 quote: "this is a fancy quote"
 
-job1: "2015-2020"
+job: "Experience"
+
+job1:
+    heading: "2015 - 2020"
     para: "St Clare's College Canberra"
-    link: "assets/images/clares-logo"
+    link: "assets/images/clares-logo.png"
 
-job2: "2021 - Present"
+job2:
+    heading: "2021 - Present"
+    para: "University of Canberra - Bachelor of interaction Design"
+    link: "assets/images/uni-logo.jpg"
+
+job3: 
+    heading: "2017 - Present"
     para: "Retail Cashier - British Petroleum (BP)"
-    link: "assets/images/bp-logo"
-
+    link: "assets/images/bp-logo.png"
 
 angel: 
     alt: "Artwork created using Photoshop and Illustrator. The image features an ancient stone statue with retro digital elements."
@@ -62,6 +70,8 @@ Polar-bear:
 Monochrome-woman: 
     alt: "Monochromatic line artwork created using Illustrator."
     link: "assets/images/Monochrome-Woman.png"
+
+footer: "Created by Jane Phelps - U3227676"
 
 ---
 
