@@ -29,6 +29,14 @@ job3:
     para: "Retail Cashier - British Petroleum (BP)"
     link: "assets/images/bp-logo.png"
 
+exp:
+    heading: "Skillset"
+    l1: "Experienced researching, conceiving, sketching, and creating low and high fidelity prototypes for digital products and services"
+    l2: "Proficient in creating websites using code (HTML/CSS/JS)"
+    l3: "Confident use of Adobe Suite and services"
+    l4: "Excellent time management and organisational skills"
+    l5: "Adept in multiple art mediums, including, acrylic painting, watercolour painting, illustration and digital art"
+
 angel: 
     alt: "Artwork created using Photoshop and Illustrator. The image features an ancient stone statue with retro digital elements."
     link: "assets/images/Angel.PNG"
