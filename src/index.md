@@ -12,8 +12,6 @@ hero:
 
 gallery: "Gallery"
 
-quote: "this is a fancy quote"
-
 job: "Experience"
 
 job1:
@@ -47,17 +45,41 @@ girl-computer:
     alt: "Surrealist digital artwork featuring a girl being transported into a computer. Created using Photoshop and Illustrator"
     link: "assets/images/Girl-computer.png"
 
-perspective: 
-    alt: "Illustration featuring subject avoiding a giant spider in a city."
-    link: "assets/images/IMG_9517.jpg"
-
 bauhaus: 
     alt: "Surrealist digital artwork featuring a girl being transported into a computer. Created using Photoshop and Illustrator"
     link: "assets/images/Bauhaus-poster.png"
 
+poster: 
+    alt: "Infographic created Illustrator and Indesign. Depicts information from the Climate Council website."
+    link: "assets/images/extreme-weather.png"
+    
+perspective: 
+    alt: "Illustration featuring subject avoiding a giant spider in a city."
+    link: "assets/images/IMG_9517.jpg"
+
+lorem: 
+    alt: "Poster created in Photoshop featuring a girl made up of Lorem Ipsum randomly generated text"
+    link: "assets/images/Lorem-Ipsum-Portrait.PNG"
+
+words: 
+    alt: "Poster made in Illustrator featuring the saying 'Actions Speak Louder than Words'"
+    link: "assets/images/Words-Poster.PNG"
+
+red: 
+    alt: "Pixel art depicting Little Red Riding Hood."
+    link: "assets/images/red-riding-hood.png"
+
 Girl: 
     alt: "Portrait featuring the side profile of a girl."
     link: "assets/images/Girl.jpg"
+
+dog: 
+    alt: "Sketch depicting a labrador lying down."
+    link: "assets/images/dog.png"
+
+antelope: 
+    alt: "Sketch depicting an antelope."
+    link: "assets/images/antelope.png"
 
 marilyn: 
     alt: "Monochromatic artwork featuring Marilyn Monroe."
@@ -70,6 +92,10 @@ Polar-bear:
 Monochrome-woman: 
     alt: "Monochromatic line artwork created using Illustrator."
     link: "assets/images/Monochrome-Woman.png"
+
+marist: 
+    alt: "Logo commissioned by the Marist Judo Club"
+    link: "assets/images/marist-judo.svg"
 
 footer: "Created by Jane Phelps - U3227676"
 

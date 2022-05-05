@@ -26,3 +26,12 @@ Go to: http://localhost:8080 to view your site
 Run `npm build`
 
 Open up your site folder and you'll discover a folder within it called `final-website` this is where your actual site files are located. 
+
+# Reflection
+This assignment required me to continue to use HTML and CSS in order to create an experimental, responsive website. The project additionally introduced to the concept of a Static Site Generator, a program which creates different files from necessary components of a site. These can then quickly and easily be filled with different content using a Markdown file. Whilst I was initially confused by the applicability and process of creating a site with this method, this project allowed me to see the considerable benefits it provides, particularly across multiple pages. 
+
+To begin the assignment, I first had to download a Static Site Generator. I was originally intending to use the recommended program Jekyll, however as there were too many difficulties downloading the system, I opted for Eleventy. I was additionally provided a template, which was extremely helpful in showing me how to operate a statically generated site. I decided I wanted to create a portfolio website, as I could have more creative freedom in the design, and could include interesting elements such as a photo gallery or ‘Prior Experience’ segment. 
+
+I began by making small changes to the layout, adding a hero content banner. I then attempted to create an image gallery. This was the most difficult aspect to overcome with this assignment. However, with some help from my classmates, I realised that fully utilising the ‘Front Matter’ content on the Markdown file allowed me to place images in the homepage.html file and edit the styling in CSS. I also decided an easy method of adding a caption to the images, was to simply reuse the ‘alt’ text. I then proceeded to create the ‘Experience’ segment. This was fairly easy, as I just had to make multiple cards and place them within a block. I then realised I could include Figma prototypes I had made in the past, as the website allows users to embed the designs into the code. This was then styled in CSS to match the Experience segment, with round corners and border shadow. I then made minor cosmetic changes, including adjustments to the header and footer, as well as image sizing. 
+
+If I were to continue this project further, I would try to add more pages and a navigation bar, in order to apply and use the Static Site Generator to its fullest potential.

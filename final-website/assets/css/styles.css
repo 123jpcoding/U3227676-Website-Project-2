@@ -31,9 +31,14 @@ p {
 
 header,
 footer {
-    background-color: #7bc1df;
     padding: 2em 0;
     margin-top: 20px;
+    color: #004c81;
+}
+
+footer {
+  background: radial-gradient(ellipse at top, #f4f4f4, transparent),
+              radial-gradient(ellipse at bottom, #7bc1df, transparent);
 }
 
 /*Hero Content*/
@@ -60,6 +65,61 @@ footer {
 
 main {
     margin-bottom: 2em;
+}
+
+/*Announcements Segment*/
+.block {
+  width: 75%;
+  height: 100vh;
+  background: #f6fbff;
+  margin-bottom: 120px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: -10px 10px 40px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.block h1 {
+  font-size: 30px;
+  position: relative;
+  padding: 20px;
+}
+
+.card {
+  height: 150px;
+  padding: 40px;
+  color: #777;
+  line-height: 22px;
+  box-sizing: border-box;
+  background: #ffff;
+  position: relative;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.profile img {
+  width: 80px;
+  margin-right: 20px;
+}
+
+.profile h3 {
+  font-size: 26px;
+  color: #7bc1df;
+  margin-bottom: 8px;
+}
+
+::selection {
+  background: #004c81;
+  color: #ffff;
 }
 
 /*Gallery Section*/
@@ -137,12 +197,14 @@ main {
 
 .figma-prototypes {
   border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
   align-items: center;
   display: flex;
   margin-top: 120px;
   width: 800px;
   height: 450px;
   transform: translateX(25%);
+  box-shadow: -10px 10px 40px rgba(0, 0, 0, 0.25);
 }
 
 .col img {
@@ -152,69 +214,5 @@ main {
     flex-basis: 20%;
 }
 
-/*Announcements Scroll*/
-.block {
-    width: 75%;
-    height: 100vh;
-    background: #f6fbff;
-    margin-bottom: 120px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    box-shadow: -10px 10px 40px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-}
 
-.block h1 {
-    font-size: 30px;
-    position: relative;
-    padding: 20px;
-}
-
-.block h1:after {
-    content:'';
-    width: 150px;
-    height: 3px;
-    background: linear-gradient(to right, #004c81,#7bc1df);
-    position: absolute;
-    bottom: -20px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.card {
-    height: 150px;
-    padding: 40px;
-    color: #777;
-    line-height: 22px;
-    box-sizing: border-box;
-    background: #ffff;
-    position: relative;
-}
-
-.profile {
-    display: flex;
-    align-items: center;
-    margin-bottom: 40px;
-}
-
-.profile img {
-    width: 50px;
-    margin-right: 20px;
-}
-
-.profile h3 {
-    font-size: 26px;
-    color: #7bc1df;
-    margin-bottom: 8px;
-}
-
-::selection {
-    background: #004c81;
-    color: #ffff;
-}
 
