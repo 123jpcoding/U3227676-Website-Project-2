@@ -1,60 +1,66 @@
 body {
-    font-size: 16px;
-    background-color: #f4f4f4;
-    font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  background-color: #f4f4f4;
+  font-family: 'Poppins', sans-serif;
 }
 
 h1 {
-    font-size: 4em;
+  font-size: 4em;
 }
 
 h2 {
-    font-size: 1.8em;
+  font-size: 1.8em;
 }
 
 h3 {
-    font-size: 1.4em;
+  font-size: 1.4em;
 }
 
 p {
-    font-size: 1.2em;
-    line-height: 1.5em;
-    margin-bottom: 1.5em;
-    padding: 2rem;
-    font-family: sans-serif;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  margin-bottom: 1.5em;
+  padding: 2rem;
+  font-family: sans-serif;
 }
 
 .inner-wrapper {
-    width: 90%;
-    margin: 0 auto;
+  width: 90%;
+  margin: 0 auto;
 }
 
 header,
 footer {
-    padding: 2em 0;
-    margin-top: 20px;
-    color: #004c81;
+  padding: 2em 0;
+  margin-top: 20px;
+  color: #004c81;
 }
 
 footer {
   background: radial-gradient(ellipse at top, #f4f4f4, transparent),
-              radial-gradient(ellipse at bottom, #7bc1df, transparent);
+    radial-gradient(ellipse at bottom, #7bc1df, transparent);
 }
 
 /*Hero Content*/
 .hero {
-    text-align: center;
-    color: white;
-    min-height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.4), rgba(1, 7, 27, 0.9)), url(../images/Blue-girl.jpg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    /* vertically align */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  text-align: center;
+  color: white;
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.4), rgba(1, 7, 27, 0.9)), url(../images/Blue-girl.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  /* vertically align */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 1s;
+}
+
+.hero:hover {
+  background-image: linear-gradient(rgba(78, 249, 255, 0.1), rgba(1, 7, 27, 0.1)), url(../images/Blue-girl.jpg);
+  color: rgba(0, 0, 0, 0);
 }
 
 .gal-title {
@@ -64,7 +70,7 @@ footer {
 }
 
 main {
-    margin-bottom: 2em;
+  margin: 2em;
 }
 
 /*Announcements Segment*/
@@ -187,11 +193,11 @@ main {
 
 @media screen and (max-width: 992px) {
   .gallery-section .gallery-wrap .gallery-images {
-      grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .gallery-section .gallery-wrap .gallery-images {
-      grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
 }
 
@@ -208,11 +214,8 @@ main {
 }
 
 .col img {
-    display: block;
-    margin: auto;
-    padding: 20px;
-    flex-basis: 20%;
+  display: block;
+  margin: auto;
+  padding: 20px;
+  flex-basis: 20%;
 }
-
-
-
